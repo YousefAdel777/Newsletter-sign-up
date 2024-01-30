@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+    * {
+        @apply p-0 m-0 box-border;
+    }
+    img,
+    svg {
+        @apply max-w-full;
+    }
+}
+
+@layer components {
+    .container {
+        @apply md:w-[100%] lg:w-[955px] md:px-[15px] mx-auto;
+    }
+    p.error {
+        @apply text-xs font-bold text-tomato;
+    }
+    input.error {
+        @apply border-tomato bg-tomato/20 text-tomato;
+    }
+    button:hover {
+        background-image: linear-gradient(to right, #ff5967, #ff6a3a);
+        box-shadow: 0 12px 12px 5px #ff596745;
+    }     
+}
