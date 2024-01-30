@@ -28,8 +28,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: (https://your-solution-url.com)
-- Live Site URL: (https://your-live-site-url.com)
+- Solution URL: (https://www.frontendmentor.io/solutions/signup-form-using-tailwindcss-and-vanilla-javascript-vNtI91EDPE)
+- Live Site URL: (https://yousefadel777.github.io/Newsletter-sign-up/)
 
 ## My process
 

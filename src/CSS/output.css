@@ -637,10 +637,6 @@ button:hover {
   margin-right: auto;
 }
 
-.mb-4{
-  margin-bottom: 1rem;
-}
-
 .mb-3{
   margin-bottom: 0.75rem;
 }
@@ -681,36 +677,8 @@ button:hover {
   display: none;
 }
 
-.h-10{
-  height: 2.5rem;
-}
-
-.h-1{
-  height: 0.25rem;
-}
-
-.h-6{
-  height: 1.5rem;
-}
-
 .min-h-\[100svh\]{
   min-height: 100svh;
-}
-
-.min-h-\[\]{
-  min-height: ;
-}
-
-.min-h-\[1\]{
-  min-height: 1;
-}
-
-.min-h-\[100\]{
-  min-height: 100;
-}
-
-.min-h-\[100s\]{
-  min-height: 100s;
 }
 
 .w-fit{
@@ -727,36 +695,8 @@ button:hover {
   max-width: 28rem;
 }
 
-.basis-\[52\%\]{
-  flex-basis: 52%;
-}
-
 .basis-3\/6{
   flex-basis: 50%;
-}
-
-.basis-\[50\%\]{
-  flex-basis: 50%;
-}
-
-.basis-\[5\%\]{
-  flex-basis: 5%;
-}
-
-.basis-\[54\%\]{
-  flex-basis: 54%;
-}
-
-.basis-\[548\%\]{
-  flex-basis: 548%;
-}
-
-.basis-\[48\%\]{
-  flex-basis: 48%;
-}
-
-.basis-3{
-  flex-basis: 0.75rem;
 }
 
 .flex-col{
@@ -787,32 +727,20 @@ button:hover {
   justify-content: space-between;
 }
 
-.gap-16{
-  gap: 4rem;
+.gap-10{
+  gap: 2.5rem;
 }
 
 .gap-3{
   gap: 0.75rem;
 }
 
-.gap-1{
-  gap: 0.25rem;
+.gap-4{
+  gap: 1rem;
 }
 
-.gap-12{
-  gap: 3rem;
-}
-
-.gap-10{
-  gap: 2.5rem;
-}
-
-.gap-8{
-  gap: 2rem;
-}
-
-.gap-9{
-  gap: 2.25rem;
+.gap-5{
+  gap: 1.25rem;
 }
 
 .rounded-md{
@@ -847,22 +775,12 @@ button:hover {
   background-color: hsl(234 29% 20% / var(--tw-bg-opacity));
 }
 
-.p-4{
-  padding: 1rem;
-}
-
 .p-8{
   padding: 2rem;
 }
 
-.px-9{
-  padding-left: 2.25rem;
-  padding-right: 2.25rem;
-}
-
-.px-8{
-  padding-left: 2rem;
-  padding-right: 2rem;
+.p-4{
+  padding: 1rem;
 }
 
 .px-6{
@@ -870,32 +788,16 @@ button:hover {
   padding-right: 1.5rem;
 }
 
-.pl-10{
-  padding-left: 2.5rem;
-}
-
-.pt-6{
-  padding-top: 1.5rem;
-}
-
-.pb-9{
-  padding-bottom: 2.25rem;
-}
-
 .pt-0{
   padding-top: 0px;
 }
 
-.pt-20{
-  padding-top: 5rem;
-}
-
-.pt-40{
-  padding-top: 10rem;
-}
-
 .pt-32{
   padding-top: 8rem;
+}
+
+.pb-9{
+  padding-bottom: 2.25rem;
 }
 
 .font-Roboto{
@@ -909,10 +811,6 @@ button:hover {
 .text-xs{
   font-size: 0.75rem;
   line-height: 1rem;
-}
-
-.text-6xl{
-  font-size: 3.5rem;
 }
 
 .font-bold{
@@ -967,16 +865,52 @@ button:hover {
     margin-bottom: 1rem;
   }
 
-  .md\:mb-5{
-    margin-bottom: 1.25rem;
-  }
-
   .md\:mb-6{
     margin-bottom: 1.5rem;
   }
 
   .md\:min-h-0{
     min-height: 0px;
+  }
+
+  .md\:basis-\[48\%\]{
+    flex-basis: 48%;
+  }
+
+  .md\:basis-\[\]{
+    flex-basis: ;
+  }
+
+  .md\:basis-\[\%\]{
+    flex-basis: %;
+  }
+
+  .md\:basis-\[5\%\]{
+    flex-basis: 5%;
+  }
+
+  .md\:basis-\[52\%\]{
+    flex-basis: 52%;
+  }
+
+  .md\:basis-\[4\]{
+    flex-basis: 4;
+  }
+
+  .md\:basis-\[48\]{
+    flex-basis: 48;
+  }
+
+  .md\:basis-\[4\%\]{
+    flex-basis: 4%;
+  }
+
+  .md\:basis-\[49\%\]{
+    flex-basis: 49%;
+  }
+
+  .md\:basis-\[51\%\]{
+    flex-basis: 51%;
   }
 
   .md\:flex-row{
@@ -989,6 +923,22 @@ button:hover {
 
   .md\:rounded-\[2rem\]{
     border-radius: 2rem;
+  }
+
+  .md\:rounded-\[2\.2rem\]{
+    border-radius: 2.2rem;
+  }
+
+  .md\:rounded-\[2\.25rem\]{
+    border-radius: 2.25rem;
+  }
+
+  .md\:rounded-\[2\.rem\]{
+    border-radius: 2.rem;
+  }
+
+  .md\:rounded-\[2\.5rem\]{
+    border-radius: 2.5rem;
   }
 
   .md\:p-6{
@@ -1014,16 +964,8 @@ button:hover {
 }
 
 @media (min-width: 992px){
-  .lg\:mb-4{
-    margin-bottom: 1rem;
-  }
-
   .lg\:mb-10{
     margin-bottom: 2.5rem;
-  }
-
-  .lg\:basis-\[48\%\]{
-    flex-basis: 48%;
   }
 
   .lg\:gap-16{
